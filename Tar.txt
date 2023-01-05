@@ -1,6 +1,7 @@
 tar -cvf backup.tar finaldraft.sh
 
-
+tar -xvf backup.tar
+rm finaldraft.sh
 tar -czf backup.tar.gz finaldraft.sh 
 
 tar -xvfz backup.tar.gz
